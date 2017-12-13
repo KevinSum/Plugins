@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2017
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tremolo - Standalone Plugin", "Tremolo_StandalonePlugin.vcxproj", "{B78BF8A1-5C30-AE9F-8F69-6673E0F61F90}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1A9918AA-A555-D5D5-369F-A98658C1C019} = {1A9918AA-A555-D5D5-369F-A98658C1C019}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tremolo - VST", "Tremolo_VST.vcxproj", "{70395E96-D01F-0634-1490-6C2EFE71C568}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1A9918AA-A555-D5D5-369F-A98658C1C019} = {1A9918AA-A555-D5D5-369F-A98658C1C019}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tremolo - Shared Code", "Tremolo_SharedCode.vcxproj", "{1A9918AA-A555-D5D5-369F-A98658C1C019}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70395E96-D01F-0634-1490-6C2EFE71C568}.Debug|x64.ActiveCfg = Debug|x64
+		{70395E96-D01F-0634-1490-6C2EFE71C568}.Debug|x64.Build.0 = Debug|x64
+		{70395E96-D01F-0634-1490-6C2EFE71C568}.Release|x64.ActiveCfg = Release|x64
+		{70395E96-D01F-0634-1490-6C2EFE71C568}.Release|x64.Build.0 = Release|x64
+		{B78BF8A1-5C30-AE9F-8F69-6673E0F61F90}.Debug|x64.ActiveCfg = Debug|x64
+		{B78BF8A1-5C30-AE9F-8F69-6673E0F61F90}.Debug|x64.Build.0 = Debug|x64
+		{B78BF8A1-5C30-AE9F-8F69-6673E0F61F90}.Release|x64.ActiveCfg = Release|x64
+		{B78BF8A1-5C30-AE9F-8F69-6673E0F61F90}.Release|x64.Build.0 = Release|x64
+		{1A9918AA-A555-D5D5-369F-A98658C1C019}.Debug|x64.ActiveCfg = Debug|x64
+		{1A9918AA-A555-D5D5-369F-A98658C1C019}.Debug|x64.Build.0 = Debug|x64
+		{1A9918AA-A555-D5D5-369F-A98658C1C019}.Release|x64.ActiveCfg = Release|x64
+		{1A9918AA-A555-D5D5-369F-A98658C1C019}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

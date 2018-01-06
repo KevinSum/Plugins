@@ -1,1 +1,1 @@
-Interesting effect I accidently made :)
+Interesting effect I accidentally made :)
